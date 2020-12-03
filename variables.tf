@@ -10,10 +10,10 @@ variable "db_table_name" {
 
 variable "db_read_capacity" {
   type    = number
-  default = 2
+  default = 3
 }
 
 variable "db_write_capacity" {
   type    = number
-  default = 2
+  default = 3
 }
